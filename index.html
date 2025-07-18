@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<head> 
+	<title>Smart Farmer-input</title>
+	<link rel="stylesheet"href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+	<div class="container">
+		<h2>Enter soil & Weather Details</h2>
+		<form action="/predict"method="post">
+		<label>Nitrogen:</label><input name="N" placeholder="Nitrogen" type="number"required>
+		<label>Phosphourus:</label><input name="P"placeholder="Phosphourus"type="number"required>
+		<label>Potassium:</label><input name="K"placeholder="Potassium"type="number"required>
+		<label>Temperature:</label><input name="temperature"placeholder="Temperature" type="number"step="0.1" required>
+		<label>Humidity:</label><input name="humidity"placeholder="Humidity" type="number"step="0.1" required>
+		<label>pH:</label><input name="ph"placeholder="pH" type="number"step="0.1" required>
+		<label>Rainfall:</label><input name="rainfall"placeholder="Rainfall" type="number"step="0.1" required>
+		<input type="submit" values="Predict Crop">
+		</form>
+	</div>
+ </div>	
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+	background-image:url('lead-2.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:'Segoe UI',sans-seif;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	padding:50px;
+	color:#fff;
+}
+container{
+	max-width:650px;
+	margin:100px auto;
+	width:100%;
+	padding:40px;
+	background:#ffffff;
+	border-radius:20px;
+	box-shadow:0 0 25px rgba(0,128,0,0.2);
+	background-color:rgb(0,0,0,0.4);
+	animation:slideIn 0.8s ease-out;
+	backdrop-filter:blur(4px);
+	color:white;
+}
+h2{
+	text-align:center;
+	color:#ffffff;
+	margin-bottom:20px;
+	text-shadow:1px 1px 3px #000;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+	background-color:rgba (0,0,0,0.6);
+	box-shadow:0 0 15px rgba(0,0,0,0.5);
+	border-radius:15px;
+	max-width:400px;
+	flex-direction:column;
+	padding:30px;
+	background-position:center;
+}
+label{
+	display:block;
+	text-align:left;
+	margin:10px 0 5px;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:16px;
+	text-shadow:1px 1px 2px #000;
+	width:100%;
+}
+input[type="submit"]{
+	background-color:#2e7d32;
+	color:white;
+	padding:10px 25px;
+	border-radius:8px;
+	font-size:16px;
+	cursor:pointer;
+	margin-top:15px;
+	transition:0.3s;
+}
+input[type="submit"]:hover{
+	background-color:L#1b5e20;
+}
+result-container{
+	max-width:700px;
+	margin:60px auto;
+	padding:40px 30px 300px 30px;
+	background-color:#ffffff;
+	background-image:url("chart.png");
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:contain;
+	border-radius:20px;
+	box-shadow:0 0 30px rgba(0,100,0,0.15);
+	text-align:center;
+	animation:slidIn 0.8s ease-out;
+}
+result-container h1{
+	color:#2e7d32;
+	font-size:28px;
+	margin-bottom:10px;
+}
+crop{
+	font-size:28px;
+	font-weight:bold;
+	color:#1a8f00;
+	text-align:center;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
